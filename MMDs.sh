@@ -1,4 +1,5 @@
 #!/bin/bash
+#my name is abdulaziz bin nayel,
 #Use centOS operating system
 #main function use's case statment combained with if statment to check if user is root
 main(){
@@ -71,7 +72,7 @@ if [ ! -f ./Security.txt ]; then
     echo -e "there is no previous hash please use function number 2 first"
 main
 fi
-oldHash=$( cat ./Security.txt )
+oldHash=$( cat ./Security.txt ) 
 newHash=$( cat /etc/passwd | md5sum )
 if [ "$oldHash" == "$newHash" ];then
 echo -e "/etc/passwd did not change\n"
