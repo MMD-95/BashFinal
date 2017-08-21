@@ -1,5 +1,5 @@
 #!/bin/bash
-#my name is abdulaziz bin nayel,
+#abdulaziz bin nayel was here,
 #Use centOS operating system
 #main function use's case statment combained with if statment to check if user is root
 main(){
